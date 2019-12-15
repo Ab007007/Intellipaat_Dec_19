@@ -1,0 +1,73 @@
+{
+  "id": "3851a9b3-799e-40f8-aa15-8686d4b0347a",
+  "version": "2.0",
+  "name": "googleSearch",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "686097e4-88b6-4bee-b23e-5d690da2b159",
+    "name": "intellipaatSearchInGoogleTEst",
+    "commands": [{
+      "id": "83677eb4-2b4b-4d3c-ab3b-b55260d667ff",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43a0a54d-bcfc-425d-b3f2-cd39cc1ac06a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22743573-bea0-4668-9e0b-eddaafa9fa45",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "intellipaat"
+    }, {
+      "id": "860db8e1-6b11-434d-9cf3-de3b1a8b22ff",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0dcd0f67-a4cb-4ff7-b5f1-ce526d1d4d1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .rc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .rc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Intellipaat: Online Professional Training Courses and ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a8a506eb-78ed-4e0a-ad01-c74586e8eff2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["686097e4-88b6-4bee-b23e-5d690da2b159"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
