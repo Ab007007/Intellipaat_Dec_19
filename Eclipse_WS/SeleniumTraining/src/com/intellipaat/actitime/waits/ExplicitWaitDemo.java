@@ -21,7 +21,7 @@ public class ExplicitWaitDemo {
 		
 		driver.get("file:///D:/Intellipaat/Intellipaat_08_December/html/CounterText.html");
 		
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		
 		wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.id("counter")), "25"));
 
