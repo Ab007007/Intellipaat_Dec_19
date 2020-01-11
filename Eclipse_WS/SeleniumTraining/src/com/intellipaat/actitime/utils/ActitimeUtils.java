@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 public class ActitimeUtils extends DriverUtils
 {
 	
-	public static void launchActitime(String url)
+	public static void launchApplication(String url)
 	{
 		System.out.println("---[INFO] launching application  " + url);
 		driver.get(url);

@@ -14,7 +14,7 @@ public class KeyBoardActionsDemo
 		
 		System.out.println("welcome to KeyBoard Operations demo");
 		WebDriver driver = DriverUtils.getMyDriver();
-		ActitimeUtils.launchActitime("http://localhost/login.do");
+		ActitimeUtils.launchApplication("http://localhost/login.do");
 		
 		Actions act = new Actions(driver);
 		
