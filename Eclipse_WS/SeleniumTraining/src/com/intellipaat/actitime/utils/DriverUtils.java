@@ -15,7 +15,7 @@ public class DriverUtils {
 		System.out.println("---[INFO] creating driver object ---");
 		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Integer.valueOf(FileReaderUtils.getProperty("timeout")), TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 
 		return driver;
@@ -71,7 +71,7 @@ public class DriverUtils {
 
 	public static void sendKeys(String identifier, String identifierValue, String textToType)
 	{
-		System.out.println("$$ Typing on an element  using " + identifier + " and " + identifierValue);
+		System.out.println("$$ Typing on an element  using " + identifier + " and " + identifierValue + " and text " + textToType);
 		getMyElement(identifier, identifierValue).sendKeys(textToType);
 		System.out.println("$$ Type operation is successfull");
 		
