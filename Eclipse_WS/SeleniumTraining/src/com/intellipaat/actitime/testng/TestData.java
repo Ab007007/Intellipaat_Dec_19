@@ -29,12 +29,33 @@ public class TestData
 	{
 		return new Object[][] 
 		{ 
-			new Object[] { "DP-Dec-Customer1","DP-Dec-Customer-Desc-1"}, 
-			new Object[] { "DP-Dec-Customer2","DP-Dec-Customer-Desc-2"}, 
-			new Object[] { "DP-Dec-Customer3","DP-Dec-Customer-Desc-3"}, 
-			new Object[] { "DP-Dec-Customer4","DP-Dec-Customer-Desc-4"}, 
+			new Object[] { "DP-Dec-Customer9","DP-Dec-Customer-Desc-1"}, 
+			new Object[] { "DP-Dec-Customer10","DP-Dec-Customer-Desc-2"}, 
+			new Object[] { "DP-Dec-Customer11","DP-Dec-Customer-Desc-3"}, 
+			new Object[] { "DP-Dec-Customer12","DP-Dec-Customer-Desc-4"}, 
 		};
 	}
+	
+	
+	
+	
+	@DataProvider
+	public Object[][] createProject()
+	{
+		return new Object[][] 
+		{ 
+			new Object[] { "Project-1", "DP-Dec-Customer5","DP-Dec-Project-Desc-1"}, 
+			new Object[] { "Project-1", "DP-Dec-Customer6","DP-Dec-Project-Desc-2"}, 
+			new Object[] { "Project-2", "DP-Dec-Customer5","DP-Dec-Project-Desc-1"}, 
+			new Object[] { "Project-2", "DP-Dec-Customer6","DP-Dec-Project-Desc-2"}, 
+			new Object[] { "Project-1", "DP-Dec-Customer7","DP-Dec-Project-Desc-3"}, 
+			new Object[] { "Project-1", "DP-Dec-Customer8","DP-Dec-Project-Desc-4"}, 
+		};
+	}
+	
+	
+	
+	
 	
 	
 	

@@ -29,5 +29,6 @@
 	<classpathentry kind="lib" path="D:/Intellipaat/Intellipaat_08_December/Eclipse_WS/SeleniumTraining/libs/poi-bin-4.1.1-20191023/poi-4.1.1/ooxml-lib/curvesapi-1.06.jar"/>
 	<classpathentry kind="lib" path="D:/Intellipaat/Intellipaat_08_December/Eclipse_WS/SeleniumTraining/libs/poi-bin-4.1.1-20191023/poi-4.1.1/ooxml-lib/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Intellipaat/Intellipaat_08_December/Eclipse_WS/SeleniumTraining/libs/commons-io-1.3.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
