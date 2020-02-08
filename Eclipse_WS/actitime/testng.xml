@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="com.intellippat.automation.actitime.LoginTest">
+  <test thread-count="5" verbose="0" name="Command line test">
+    <classes>
+      <class name="com.intellippat.automation.actitime.LoginTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+</suite> <!-- com.intellippat.automation.actitime.LoginTest -->

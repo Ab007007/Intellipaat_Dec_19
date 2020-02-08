@@ -2,6 +2,7 @@ package dummy;
 
 import java.util.Date;
 
+
 public class DateFinder {
 
 	
@@ -9,5 +10,7 @@ public class DateFinder {
 		
 		
 		System.out.println(new Date().toString().replace(" ", "_").replace(":", "_"));
+		MyUt
+		
 	}
 }
